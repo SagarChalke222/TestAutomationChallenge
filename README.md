@@ -38,4 +38,4 @@ Maven utilizes pom.xml file to download all the dependencies.
 testrunner folder
 testing.xml - is a test suite to run multiple test cases.
 
-Sagar Chalke maintains and contributes to the project.
+**Sagar Chalke maintains and contributes to the project.**
