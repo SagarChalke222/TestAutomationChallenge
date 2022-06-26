@@ -1,8 +1,10 @@
 # TestAutomationChallenge
 
-This project is focused on automating Mytheresa website in order to validate login functionality and hyperlinks on a webpage.
+This project is focused on automating a website in order to validate login functionality and hyperlinks on a webpage.
 
 This project is useful to validate login using different browsers in different environments.
+
+### Answers for Basics, Test case challenge and Automation test challenge (Test case 3 only) can be read from Technical Challenge.pdf.
 
 ### Prerequisites 
 1. Install Eclipse IDE for java developers
@@ -20,6 +22,8 @@ This project is useful to validate login using different browsers in different e
 
 ### Project Overview
 
+**Test cases 1 & 2 are implemented in the project**
+
 src/test/java/testcases
 TestChallengeSuit.java - test cases suite where all test cases are added.Login and hyperlinks related test cases are part of this suit. Scope to add N number of test cases.
 
@@ -30,7 +34,7 @@ src/test/java/utilities package
 ReadpropertyFile.java - This class is used to read property file which will be helpful to pull data from centralized file.
 
 src/test/resources/configfiles folder
-Two config files are under this path. These files contains testurl,browsers & locators related data which is utilized by all other files using ReadpropertyFile class.
+Two config files are under this path. These files contains testurl,browsers & locators related data which is utilized by all other files using ReadpropertyFile.java.
 
 Maven Dependencies
 Maven utilizes pom.xml file to download all the dependencies.
